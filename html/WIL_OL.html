@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIL Opportunities List</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body class="p-0 m-0">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top m-0 p-0" id="navBarOption">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-7 col-9 m-0 p-0">
+                    <a href="#" class="navbar-brand ps-lg-3 py-lg-4 pe-lg-0 bg-white">
+                        <img src="./ArtAssets/MurdochUni_Logo.png" alt="Murdoch Logo" id="murdochLogo" class="container-fluid m-0 p-0 bg-white">
+                        <img src="./ArtAssets/MoodleJob_Logo_V2.png" alt="Murdoch Logo" id="murdochLogo2" class="container-fluid m-0 p-0 bg-white">
+                    </a> 
+                </div>
+        
+                <div class="d-lg-none col-3">
+                    <button type="button" class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar" ></span>
+                    </button>
+                </div>
+                              
+                <div class="col-lg-5">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav p-2 ms-xl-5 ms-0" id="navScrollspy">            
+                            <li class="nav-item" id="navItem1"> 
+                                <a class="nav-link my-1 ms-lg-5 ms-0 w-100 text-black" href="#contact_us" id="itemNavigation">Contact Us</a>                               
+                            </li>
+                            <li class="nav-item" id="navItem2">
+                                <a class="nav-link my-1 w-100 text-black" href="#employers" id="itemNavigation"><span class="h-100 mx-2 ms-xxl-0 ms-5 d-lg-inline d-none text-primary">|</span><span class="d-lg-inline d-none">&nbsp;&nbsp;</span>Employers<span class="d-lg-inline d-none">&nbsp;&nbsp;</span><span class="h-100 mx-2 d-lg-inline d-none text-primary">|</span></a>
+                            </li>
+                          
+                            <li class="nav-item" id="navItem4">
+                                <a class="nav-link my-1 text-black" href="#current_students" id="itemNavigation">Current Students</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Main Content Section -->
+    <div class="container-fluid border border-dark mt-5 p-0">
+        <!-- Background WIL Picture with text Section -->
+        <section id="section-hero" class="text-center text-white d-flex justify-content-start align-items-center">
+			<div class="container-fluid ms-5 d-flex flex-column justify-content-start align-items-start text-left">
+                    <h2 class="display-4 text-start" id="titleBackground">WIL Opportunities</h2>
+                    <p id="titleBackgroundParagraph" class="w-25 p-2 mt-3 text-start d-flex align-items-start justify-content-start">Explore your job possibilities as a Murdoch student.</p>
+			</div> 
+           
+            <div class="container-fluid position-absolute bottom-0 end-0 d-flex justify-content-end align-items-end" id="buttonSearchHolder">
+                <div class="search-container">
+                    <form action="/search" method="get">
+                      <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+                      <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+                    </form>
+                  </div>
+            </div>
+		</section>
+
+        <!-- Color Color Red Section -->
+        <div class="container-fluid" id="colorBackground">
+            <p class="text-danger">..</p>
+        </div>
+
+
+        <!-- Breadcrumb Section-->
+        <div class="container mt-4 px-5">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="Breadcrumb" class="pt-2">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item " id="breadcrumb-item1"><a href="#" class="text-black text-decoration-none">Home</a></li>
+                  <li class="breadcrumb-item " id="breadcrumb-item2"><a href="WIL_Grid.html" class="text-black text-decoration-none">WIL Opportunities</a></li>
+                  <li class="breadcrumb-item " id="breadcrumb-item3"><a href="WIL_OL.html" class="text-danger text-decoration-none">Job</a></li>
+                </ol>
+              </nav>
+        </div>  
+
+        <!-- Job Section Content  -->
+        <div class="container px-5">
+
+            <!-- Company Information -->
+            <div class="container mt-2 p-4 d-flex flex-column flex-lg-row">
+
+                <!-- Company Location Title  -->
+                <div class="card w-100 d-flex flex-lg-row flex-column border border-0">
+                    <img src="./ArtAssets/Rectangle 62.jpg" alt="Card image in the top" class="card-img-top w-100 h-100">
+                    <div class="card-body">
+
+                        <!-- Card Title and Save Icon  -->
+                        <div class="container ms-lg-5 ms-0 d-flex flex-row justify-content-between" id="companyJobTitle">
+                            <span class="display-6">Data Engineer (Power BI / SQL)</span>
+                            <img src="./ArtAssets/Icons/Save_Icon.png" class="ms-5 ps-2" id="saveIconListJob">
+                        </div>
+
+                        <!-- Company Location -->
+                        <div  class="container ms-lg-5 mt-4 mt-lg-0 ms-0" id="companyLocationJob">
+                            <span>OPTIMUM SOLUTIONS (SINGAPORE) PTE LTD
+                                Singapore</span>
+                        </div>  
+
+                        <!-- Icons for Jobs -->
+                        <div class="container-fluid mt-4 w-100 d-flex flex-row justify-content-start align-items-start">
+                        
+                                <figure class="figure d-flex flex-row justify-content-center align-items-center">
+                                    <img src="./ArtAssets/Icons/Post_Timing.png"  id="timePostingJob">
+                                    <figcaption>&nbsp; 1 Month Ago</figcaption>
+                                </figure>
+                                <figure class="figure d-flex flex-row justify-content-center align-items-center ">
+                                    <img src="./ArtAssets/Icons/Job_Type.png"  id="timePostingJob">
+                                    <figcaption>&nbsp; Full Time</figcaption>
+                                </figure>
+                                <figure class="figure d-flex flex-row justify-content-center align-items-center ">
+                                    <img src="./ArtAssets/Icons/Money_Icon.png"  id="timePostingJob">
+                                    <figcaption> 600-1K / Month</figcaption>
+                                </figure>
+                                <figure class="figure d-flex flex-row justify-content-center align-items-center ">
+                                    <img src="./ArtAssets/Icons/Globe_Icon.png"  id="timePostingJob">
+                                    <figcaption> Remote</figcaption>
+                                </figure>
+                        
+                          </div>
+                    </div>
+                  </div>
+
+                  
+
+            </div>
+                     <!-- Description of Jobs -->
+            <div class="container mt-5">
+                            The Government Technology Agency (GovTech) aims to transform the delivery of Government digital services by taking an "outside-in" view, putting citizens and businesses at the heart of everything we do.
+                            <br/>
+                            <br/>
+                            Roles and Responsibilities:
+                            <nav>
+                                <ul>                           
+                                    <li class="my-1"> Collaborate with business and Technology users to analyse user requirements and contribute to defining data models. Deliver Visualization programs</li>                           
+                                    <li class="my-1"> Deliver world class dashboard and analytics solutions using company standard datalake in snowflake and appropriate tools – to start with MS PowerBI and progressively to either python based or Java based UI</li>                        
+                                    <li class="my-1">  Contribute and Use best practices in PowerBI and other tools</li>                          
+                                    <li class="my-1">  Work with SQL to extract, transform and load data in snowflake and use powerbi visualization tools · Create functional and technical specifications</li>
+                                </ul>
+                            </nav>
+                           
+                            <br/>
+ 
+                            Provide thought leadership Requirements:
+                            <li class="my-1">Progressive work experience in the field of Business Intelligence, information management, data engineering</li>
+                            <li class="my-1">Demonstrable experience and proficiency in PowerBI</li>
+                            <li class="my-1">Data modelling skills</li>
+                            <li class="my-1">Proficiency in SQL – for ETL tools</li>
+                            <li class="my-1">    
+                                Strong data storytelling experience</li>
+                            <li class="my-1">          
+                                Graduate in STEM. Post graduation preferred</li>        
+            </div>
+
+             <!-- Buttons for apply and report -->
+             <div class="container mt-5 d-flex w-75 flex-column flex-lg-row justify-content-around align-items-center mb-5 pb-5">
+
+                <input type="button" class="btn btn-danger" value="! REPORT THIS LISTING" id="reportButton">
+                <input type="button" class="btn text-white mt-lg-0 mt-4" value="APPLY NOW" id="applyButton">
+ 
+             </div>
+           
+        </div>
+
+
+    </div>
+
+</body>
+</html>

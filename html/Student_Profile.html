@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top m-0 p-0" id="navBarOption">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-7 col-9 m-0 p-0">
+                    <a href="#" class="navbar-brand ps-lg-3 py-lg-4 pe-lg-0 bg-white">
+                        <img src="./ArtAssets/MurdochUni_Logo.png" alt="Murdoch Logo" id="murdochLogo" class="container-fluid m-0 p-0 bg-white">
+                        <img src="./ArtAssets/MoodleJob_Logo_V2.png" alt="Murdoch Logo" id="murdochLogo2" class="container-fluid m-0 p-0 bg-white">
+                    </a> 
+                </div>
+        
+                <div class="d-lg-none col-3">
+                    <button type="button" class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon navbar" ></span>
+                    </button>
+                </div>
+                              
+                <div class="col-lg-5">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav p-2 ms-xl-5 ms-0" id="navScrollspy">            
+                            <li class="nav-item" id="navItem1"> 
+                                <a class="nav-link my-1 ms-lg-5 ms-0 w-100 text-black" href="#contact_us" id="itemNavigation">Contact Us</a>                               
+                            </li>
+                            <li class="nav-item" id="navItem2">
+                                <a class="nav-link my-1 w-100 text-black" href="#employers" id="itemNavigation"><span class="h-100 mx-2 ms-xxl-0 ms-5 d-lg-inline d-none text-primary">|</span><span class="d-lg-inline d-none">&nbsp;&nbsp;</span>Employers<span class="d-lg-inline d-none">&nbsp;&nbsp;</span><span class="h-100 mx-2 d-lg-inline d-none text-primary">|</span></a>
+                            </li>
+                          
+                            <li class="nav-item" id="navItem4">
+                                <a class="nav-link my-1 text-black" href="#current_students" id="itemNavigation">Current Students</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- My info Background with Text -->
+    <div class="container-fluid bg-dark">
+        <section id="section-hero-studentProfile" class="text-center text-white d-flex justify-content-start align-items-center">
+            <div class="container-fluid mt-5 text-center d-flex justify-content-center align-items-center" id="studentProfile">
+                My Info
+            </div>
+		</section>
+    </div>
+
+    <!-- Main Content of Student Profile Page -->
+
+        <div class="container vw-100 mt-4 d-flex flex-column-reverse flex-lg-row justify-content-center align-items-start pb-5">
+            
+            <!-- Information about the Student  -->
+            <div class="container vw-100 mt-2 mb-5">
+                <!-- Student Details Label  -->
+                <div class="container student-label mb-2">
+                    Student Details
+                </div>
+
+                <!-- Student Details Content  -->
+                <div class="container-fluid d-flex flex-row justify-content-end align-items-start rounded-4 student-details p-3">
+
+                    <!-- Information about Student  -->
+                    <div class="container w-100">
+                        <div class="container my-2">
+                            <span>Student Number: </span>
+                            <span>3333 2222</span>
+                        </div>
+    
+                        <div class="container my-2">
+                            <span>Qualifications: </span>
+                            <span>Bachelor in Computer Science (BSc)</span>
+                        </div>
+    
+                        <div class="container my-2">
+                            <span>Year: </span>
+                            <span>2</span>
+                        </div>
+                    </div>
+
+                    <!-- Edit Button  -->
+                    <div class="container-fluid d-flex justify-content-end w-25">
+                        <button type="button" class="btn student-edit-button">
+                            <img src="./ArtAssets/Icons/Edit_Icon 2.png">
+                        </button>
+                    </div>
+                </div>
+
+                   <!-- About Myself Details Label  -->
+                   <div class="container about-myself-label  my-4">
+                    About Myself
+                    </div>
+
+                    <!-- About Myself Details  -->
+                    <div class="container-fluid d-flex flex-row justify-content-end align-items-start rounded-4 student-details p-2">
+
+                        <!-- Information about Student myself  -->
+                        <div class="container w-100 p-5">
+                           <div class="container p-5 text-center">
+                                Student Description/ Status
+                           </div>
+                        </div>
+    
+                        <!-- Edit Button  -->
+                        <div class="container-fluid d-flex justify-content-end w-25">
+                            <button type="button" class="btn student-edit-button">
+                                <img src="./ArtAssets/Icons/Edit_Icon 2.png">
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- Past Experience Details Label  -->
+                   <div class="container about-myself-label my-4">
+                    Past Experience
+                    </div>
+
+                    <!-- Past Experience Details  -->
+                    <div class="container-fluid d-flex flex-row justify-content-end align-items-start rounded-4 student-details p-2">
+
+                        <!-- Information about Past Experience  -->
+                        <div class="container w-100 p-5">
+                           <div class="container p-1 text-center">
+                                Past Work/ Experience Description
+                           </div>
+                        </div>
+    
+                        <!-- Edit Button  -->
+                        <div class="container-fluid d-flex justify-content-end w-25">
+                            <button type="button" class="btn student-edit-button">
+                                <img src="./ArtAssets/Icons/Edit_Icon 2.png">
+                            </button>
+                        </div>
+                    </div>
+
+            </div>
+
+
+            <!-- Student Profile  -->
+            <div class="container w-75 pb-5 mt-3 d-flex justify-content-end align-items-center">   
+
+                <!-- Student Image  -->
+                <div class="container w-100 d-flex justify-content-end">
+                    <figure class="figure">
+                        <img src="./ArtAssets/pexels-photo-1681010 1.png" class="figure-img img-fluid" alt="Figure image">
+                        
+                        <!-- Student Name and Edit Button  -->
+                        <div class="container d-flex justify-content-center align-items-center align-items-center">
+                            <span class="student-name">John Doe</span>
+                            <img src="./ArtAssets/Icons/Edit_Icon 2.png" class="ms-4">
+                        </div>
+
+                        <div class="container d-flex mt-4 justify-content-center">
+                            <button type="button" class="btn btn-danger w-75 p-2 button-saved-jobs">Saved Jobs</button>
+                        </div>
+
+                        <div class="container d-flex my-4 justify-content-center">
+                            <button type="button" class="btn btn-danger w-75 p-2 button-saved-jobs">Application Status</button>
+                        </div>
+
+
+                      </figure>
+                </div>
+
+            </div>
+        
+
+    
+        </div>    
+</body>
+</html>
